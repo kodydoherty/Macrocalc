@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB0D023B1A030E7800958620 /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB0D023A1A030E7800958620 /* images.jpg */; };
 		CBE8B0601A0046160040F184 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE8B05F1A0046160040F184 /* AppDelegate.swift */; };
 		CBE8B0621A0046160040F184 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE8B0611A0046160040F184 /* ViewController.swift */; };
 		CBE8B0651A0046160040F184 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE8B0631A0046160040F184 /* Main.storyboard */; };
 		CBE8B0671A0046160040F184 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBE8B0661A0046160040F184 /* Images.xcassets */; };
 		CBE8B06A1A0046160040F184 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBE8B0681A0046160040F184 /* LaunchScreen.xib */; };
 		CBE8B0761A0046160040F184 /* MacrocalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE8B0751A0046160040F184 /* MacrocalcTests.swift */; };
-		CBE8B0801A0047A50040F184 /* close-enough.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBE8B07F1A0047A50040F184 /* close-enough.jpg */; };
 		CBE8B0821A004B730040F184 /* Macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE8B0811A004B730040F184 /* Macro.swift */; };
 		CBE8B0861A004FCE0040F184 /* MacroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE8B0851A004FCE0040F184 /* MacroViewController.swift */; };
 		CBE8B0881A0052390040F184 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE8B0871A0052390040F184 /* Goal.swift */; };
@@ -30,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB0D023A1A030E7800958620 /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
 		CBE8B05A1A0046160040F184 /* Macrocalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Macrocalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBE8B05E1A0046160040F184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBE8B05F1A0046160040F184 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,7 +41,6 @@
 		CBE8B06F1A0046160040F184 /* MacrocalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacrocalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBE8B0741A0046160040F184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBE8B0751A0046160040F184 /* MacrocalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacrocalcTests.swift; sourceTree = "<group>"; };
-		CBE8B07F1A0047A50040F184 /* close-enough.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "close-enough.jpg"; path = "../../../Desktop/close-enough.jpg"; sourceTree = "<group>"; };
 		CBE8B0811A004B730040F184 /* Macro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Macro.swift; sourceTree = "<group>"; };
 		CBE8B0851A004FCE0040F184 /* MacroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MacroViewController.swift; sourceTree = "<group>"; };
 		CBE8B0871A0052390040F184 /* Goal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 		CBE8B05D1A0046160040F184 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CBE8B07F1A0047A50040F184 /* close-enough.jpg */,
+				CB0D023A1A030E7800958620 /* images.jpg */,
 				CBE8B05E1A0046160040F184 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -204,10 +204,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBE8B0801A0047A50040F184 /* close-enough.jpg in Resources */,
 				CBE8B0651A0046160040F184 /* Main.storyboard in Resources */,
 				CBE8B06A1A0046160040F184 /* LaunchScreen.xib in Resources */,
 				CBE8B0671A0046160040F184 /* Images.xcassets in Resources */,
+				CB0D023B1A030E7800958620 /* images.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +423,7 @@
 				CBE8B07B1A0046160040F184 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBE8B07C1A0046160040F184 /* Build configuration list for PBXNativeTarget "MacrocalcTests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +432,7 @@
 				CBE8B07E1A0046160040F184 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

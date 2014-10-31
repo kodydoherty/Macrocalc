@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B1924853-2AEA-4AB1-97ED-A3DCA337E27F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Macrocalc</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>14AFD4998D0394DDBB5933A6550D9F82A32C650E</key>
+		<string>https://github.com/kodydoherty/Macrocalc.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Macrocalc.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>14AFD4998D0394DDBB5933A6550D9F82A32C650E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kodydoherty/Macrocalc.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>14AFD4998D0394DDBB5933A6550D9F82A32C650E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>14AFD4998D0394DDBB5933A6550D9F82A32C650E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Macrocalc</string>
+		</dict>
+	</array>
+</dict>
+</plist>
